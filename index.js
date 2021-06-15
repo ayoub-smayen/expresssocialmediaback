@@ -4,7 +4,10 @@ const port = process.env.PORT || 5000;
 const app = express();
 
 mongoose.connect(
-  "mongodb+srv://BlogUser:jAVhPqR9YORwjwXW@cluster0-fc8do.gcp.mongodb.net/BlogDB?retryWrites=true&w=majority",
+
+  //"mongodb+srv://cluster0.fgqdy.mongodb.net/myFirstDatabase",
+ "mongodb+srv://ayoub:7LchjMQ9ENeSbwcw@cluster0.fgqdy.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+ // "mongodb+srv://BlogUser:jAVhPqR9YORwjwXW@cluster0-fc8do.gcp.mongodb.net/BlogDB?retryWrites=true&w=majority",
   {
     useNewUrlParser: true,
     useCreateIndex: true,
